@@ -435,6 +435,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4259080689594872, guid: 6c919ec1c1e88a94c95afc28b198b9f8, type: 3}
   m_PrefabInstance: {fileID: 1736069365}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &240082333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3439687413691049063, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+  m_PrefabInstance: {fileID: 1014115042}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &249179791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1493,6 +1504,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4095758844448530086, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095758844448530086, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4163414437573240626, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1540,6 +1559,62 @@ PrefabInstance:
     - target: {fileID: 4163414437573453362, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
       propertyPath: m_Name
       value: Enemy Goblin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926963, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: Gauge
+      value: 
+      objectReference: {fileID: 240082333}
+    - target: {fileID: 4163414437579926963, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926963, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: currentHealth
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926967, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926967, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Size.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926967, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163414437579926967, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Center.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481205575169882220, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481205575169882220, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481205575169882220, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347247057191411510, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580911100894079189, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580911100894079189, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580911100894079189, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e9301b4e48750541b76fd3b9712c296, type: 3}
