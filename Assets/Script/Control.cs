@@ -33,19 +33,19 @@ public class Control : MonoBehaviour
 
         Gauge.value = (float)currentHealth / maxHealth;
 
-        // °íºí¸°ÀÌ ±¤¼±À» ½ô (¾Æ±º/Àû±º°úÀÇ °Å¸® ½Äº°, ±¤¼±¿¡ ¾Æ¹« ¼³Á¤ ¾ÈÇØÁÖ¸é ¹Ù´Ú¿¡¼­ ¹ß»çµÊ)
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ (ï¿½Æ±ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ ï¿½Äºï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ ï¿½Ù´Ú¿ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½)
         Ray ray = new Ray(transform.position, transform.forward);
 
         if(Physics.Raycast(ray, out hit, 2.0f, layer[0]))
         {
             speed = 0.0f;
-            animator.SetBool("Attack State", true); // Á¤ÁöµÇ¾î °ø°ÝÇÏ´Â ¸ð¼Ç ÁöÁ¤
+            animator.SetBool("Attack State", true); // ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
             if(animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
             {
                 if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
                 {
-                    animator.Rebind(); // ¾Ö´Ï¸ÞÀÌÅÍ ÃÊ±âÈ­
+                    animator.Rebind(); // ï¿½Ö´Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
                     hit.transform.GetComponent<Control>().currentHealth -= attack;
                 }
             }
