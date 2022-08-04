@@ -852,15 +852,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1fae9c05140e24783ee66debe826a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   layer:
   - serializedVersion: 2
     m_Bits: 8
   - serializedVersion: 2
     m_Bits: 64
   maxHealth: 0
-  currentHealth: 100
+  currentHealth: 0
   attack: 10
+  speed: 2
   Gauge: {fileID: 3439687413691049063}
 --- !u!65 &4163414437579926967
 BoxCollider:
