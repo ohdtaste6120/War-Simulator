@@ -26,8 +26,7 @@ public class Create : MonoBehaviour
             case 0: Instantiate(Resources.Load<GameObject>("Goblin"), new Vector3(-26,-7, -4), Quaternion.Euler(0, 90, 0));
                 break;
 
-            case 1:
-                Instantiate(Resources.Load<GameObject>("Wizard"), new Vector3(-26, -7, -4), Quaternion.Euler(0, 90, 0));
+            case 1: Instantiate(Resources.Load<GameObject>("Wizard"), new Vector3(-26, -7, -4), Quaternion.Euler(0, 90, 0));
                 break;
 
 
