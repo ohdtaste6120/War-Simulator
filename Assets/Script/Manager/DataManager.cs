@@ -33,7 +33,7 @@ public class DataManager : MonoBehaviour
 
     public void Save()
     {
-        PlyerPrefs.SetInt("money", money);
+        PlayerPrefs.SetInt("money", money);
     }
 
     public void Load()

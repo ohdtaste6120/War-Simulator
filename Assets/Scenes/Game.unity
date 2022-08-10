@@ -1313,7 +1313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1000 $
+  m_Text: 100000$
 --- !u!222 &492390252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1406,6 +1406,10 @@ PrefabInstance:
       propertyPath: product
       value: 
       objectReference: {fileID: 11400000, guid: c1a2eba431438e943814250134a9dd89, type: 2}
+    - target: {fileID: 4521553305614896817, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: createButton
+      value: 
+      objectReference: {fileID: 1273064620}
     - target: {fileID: 7579538200502376529, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1425,6 +1429,18 @@ PrefabInstance:
     - target: {fileID: 7579538200502376623, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
       propertyPath: m_Name
       value: Wizard Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_FillMethod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7579538200799761025, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
       propertyPath: m_Pivot.x
@@ -1991,6 +2007,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4175797499355468, guid: 45fe3ec28eac2064d985117cf812ef9d, type: 3}
   m_PrefabInstance: {fileID: 1180405459}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &861345049 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7579538200799761026, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+  m_PrefabInstance: {fileID: 7579538199900661969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &911306149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2065,6 +2092,151 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4365009236294980, guid: 1c646272db9f13f40a1cc8d87b080552, type: 3}
   m_PrefabInstance: {fileID: 295864048}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &944208123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 944208126}
+  - component: {fileID: 944208125}
+  - component: {fileID: 944208124}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &944208124
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944208123}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &944208125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944208123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18da2db331183304c89e3ee87767c323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioClip:
+  - {fileID: 8300000, guid: a31c24bd35ba271468bec1a5d5f2d4fa, type: 3}
+  - {fileID: 8300000, guid: 0cba95ce431e51e4faa8e105e9f97fc6, type: 3}
+  - {fileID: 8300000, guid: d26fad1eafd7c6641bd0c50cf4742aad, type: 3}
+--- !u!4 &944208126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944208123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4055829, y: -0.37397623, z: -5.3987613}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &948678461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3503,6 +3675,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+--- !u!114 &1273064620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7579538200799761026, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+  m_PrefabInstance: {fileID: 519899768}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1354138406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5955,9 +6138,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 469592945}
     m_Modifications:
+    - target: {fileID: 4521553305614896817, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: createButton
+      value: 
+      objectReference: {fileID: 861345049}
     - target: {fileID: 7579538200502376623, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
       propertyPath: m_Name
       value: Goblin Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_Type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_FillMethod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579538200799761024, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7579538200799761025, guid: 87d610944b76ae8408771c5c4c59dc91, type: 3}
       propertyPath: m_Pivot.x
